@@ -119,6 +119,8 @@ button {
 }
 .hero {
   background-color: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -131,9 +133,11 @@ button {
   display: flex;
   text-align: center;
   justify-content: center;
-  padding-top: 200px;
+  
   margin-bottom: 30px;
 }
+
+
 
 .button {
   background-color: var(--accent-color);
@@ -157,7 +161,7 @@ button {
 .button-centr {
   display: flex;
   justify-content: center;
-  padding-bottom: 200px;
+  
 }
 h2 {
   font-weight: bold;
@@ -188,18 +192,23 @@ h3 {
   letter-spacing: 0.03em;
   text-decoration: none;
   text-align: center;
-  margin-top: 30px;
   margin-bottom: 10px;
 }
+
 .list-centr {
   list-style: none;
   text-decoration: none;
   display: flex;
   align-items: center;
 }
-.description {
-  margin-top: 94px;
-  margin-bottom: 94px;
+.name-position {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  
+}
+.main-container{
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .description-list:not(:last-child) {
@@ -208,6 +217,8 @@ h3 {
 
 .scroll {
   background: #ffffff;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .scroll-excellence {
   font-weight: normal;
@@ -216,26 +227,31 @@ h3 {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
+
+
 .panel {
   margin-bottom: 10px;
 }
 .about {
   background: #ffffff;
+  padding-bottom: 94px;
+
 }
 .rubric {
   text-align: center;
   margin-bottom: 50px;
 }
-.topic {
-  margin-bottom: 50px;
-}
+
 
 .team {
   background: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 30px;
+
 }
 .our {
   text-align: center;
-  padding-top: 94px;
+  
   margin-bottom: 50px;
 }
 .position {
@@ -245,7 +261,6 @@ h3 {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
   text-align: center;
-  padding-bottom: 30px;
 }
 .footer {
   font-family: "Roboto", sans-serif;
@@ -255,6 +270,8 @@ h3 {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  padding-top: 60px;
+  padding-bottom: 9px;
 }
 
 .studio {
@@ -275,7 +292,7 @@ h3 {
   list-style: none;
   text-decoration: none;
   font-style: normal;
-  margin-bottom: 9px;
+ 
 }
 .list-footer {
   font-weight: normal;
@@ -286,7 +303,7 @@ h3 {
   text-decoration: none;
 }
 
-.snap {
+.snap  {
   font-family: "Roboto", sans-serif;
   cursor: pointer;
 
@@ -301,11 +318,18 @@ h3 {
   letter-spacing: 0.03em;
   color: #212121;
   display: flex;
+  
   justify-content: center;
-  margin-bottom: 34px;
-  margin-right: 8px;
-  margin-top: 94px;
+  padding-bottom: 34px;
+}
+.task{
+    margin-right: 8px;
   border: none;
+
+  min-width:  73px;
+  height: 38px;
+ 
+ top: 174px;
 }
 .snap-all {
   background: #2196f3;
@@ -316,29 +340,30 @@ h3 {
   margin-right: 8px;
 }
 
+.draft{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+}
 .title {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--secondary-title-color);
   margin-bottom: 4px;
-  padding-left: 24px;
-  padding-right: 24px;
-
-  border-left: 1px solid #eeeeee;
-  border-right: 1px solid #eeeeee;
+  
+    
 }
 .use {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.88;
   color: var(--primary-text-color);
-  padding-bottom: 20px;
-  padding-left: 24px;
-  padding-right: 24px;
-  border-bottom: 1px solid #eeeeee;
-  border-left: 1px solid #eeeeee;
-  border-right: 1px solid #eeeeee;
+ 
+ 
 }
 .progects {
   list-style: none;
@@ -348,8 +373,9 @@ h3 {
 }
 .plan:not(:nth-child(3n)) {
   margin-right: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
+
 .container-footer {
   width: 1200px;
   height: 211px;
@@ -365,6 +391,4 @@ h3 {
   padding-bottom: 60px;
   margin-top: 9px;
 }
-.footero {
-  padding-top: 60px;
-}
+
