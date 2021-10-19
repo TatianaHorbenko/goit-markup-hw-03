@@ -8,46 +8,44 @@
   --accent-color: #2196f3;
 }
 
-p,h1,h2,h3{
+p,
+h1,
+h2,
+h3 {
   margin: 0;
 }
-  ul{
-    margin: 0;
-    padding: 0;
-  }
-button{
-  cursor: pointer;
-  
+ul {
+  margin: 0;
+  padding: 0;
 }
-.header{
-background-color: var(--primery-title-color);
+button {
+  cursor: pointer;
+}
+.header {
+  background-color: var(--primery-title-color);
   padding-top: 24px;
   padding-bottom: 25px;
-  border-bottom: 1px solid #ececec ;
+  border-bottom: 1px solid #ececec;
 }
-.container{
-  
-   width: 1200px;
+.container {
+  width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
   margin-left: auto;
   margin-right: auto;
 }
-.header-container{
-  
+.header-container {
   display: flex;
-
 }
 
-.header-nav{
-  
+.header-nav {
   display: flex;
   align-items: center;
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
   text-decoration: none;
-    font-weight: bold;
+  font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -60,23 +58,21 @@ background-color: var(--primery-title-color);
   color: var(--logo-color);
 }
 
-
 .header-mailto {
   list-style: none;
   text-decoration: none;
-  color:var(--primary-text-color);
+  color: var(--primary-text-color);
   margin-right: 50px;
 }
 
 .header-tel {
-  color:var(--primary-text-color);
+  color: var(--primary-text-color);
   list-style: none;
   text-decoration: none;
 }
-  
+
 .body {
   font-family: "Roboto", sans-serif;
-  
 }
 
 .list {
@@ -87,12 +83,10 @@ background-color: var(--primery-title-color);
   text-decoration: none;
   list-style: none;
   display: flex;
-
 }
-.banner:not(:last-child){
+.banner:not(:last-child) {
   margin-right: 50px;
-  
- }
+}
 .link {
   color: var(--accent-color);
   list-style: none;
@@ -121,12 +115,10 @@ background-color: var(--primery-title-color);
 }
 .header {
   background-color: #ffffff;
-  border: bottom 1px solid #ececec;
-  
+  border-bottom: 1px solid #ececec;
 }
 .hero {
   background-color: #2f303a;
-     
 }
 
 .hero-title {
@@ -137,11 +129,10 @@ background-color: var(--primery-title-color);
   text-transform: uppercase;
   color: var(--primery-title-color);
   display: flex;
-  align-items: center;
+  text-align: center;
   justify-content: center;
   padding-top: 200px;
   margin-bottom: 30px;
-  
 }
 
 .button {
@@ -151,31 +142,22 @@ background-color: var(--primery-title-color);
   line-height: 1.88;
   letter-spacing: 0.06em;
   color: var(--second-text-color);
-  display:flex;
-  
+  display: flex;
+
   padding-left: 32px;
   padding-right: 32px;
   padding-top: 10px;
   padding-bottom: 10px;
- 
-   
- }
+}
 .button:hover,
 .button:focus {
   color: #188ce8;
 }
-.btn-hero{
-  display: block;
-  margin: 0 avto;
-  
-  
-}
-.button-centr{
-  display: flex;	
+
+.button-centr {
+  display: flex;
   justify-content: center;
   padding-bottom: 200px;
-  
-
 }
 h2 {
   font-weight: bold;
@@ -184,7 +166,7 @@ h2 {
   letter-spacing: 0.03em;
   color: var(--secondary-title-color);
 }
-.psevdo{
+.psevdo {
   display: none;
 }
 h3 {
@@ -196,8 +178,8 @@ h3 {
   list-style: none;
   text-decoration: none;
 }
-.list-foto{
-padding-bottom: 94px;
+.list-foto {
+  padding-bottom: 94px;
 }
 .name {
   font-weight: 500;
@@ -214,22 +196,18 @@ padding-bottom: 94px;
   text-decoration: none;
   display: flex;
   align-items: center;
-  
 }
-.description{
+.description {
   margin-top: 94px;
   margin-bottom: 94px;
-  
-  
 }
 
-  .description-list:not(:last-child){
-    margin-right: 30px;
-  }
+.description-list:not(:last-child) {
+  margin-right: 30px;
+}
 
 .scroll {
   background: #ffffff;
-  
 }
 .scroll-excellence {
   font-weight: normal;
@@ -238,24 +216,24 @@ padding-bottom: 94px;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
-.panel{
+.panel {
   margin-bottom: 10px;
 }
 .about {
   background: #ffffff;
 }
-.rubric{
+.rubric {
   text-align: center;
   margin-bottom: 50px;
 }
-  .topic{
-    margin-bottom: 50px;
-  }
+.topic {
+  margin-bottom: 50px;
+}
 
 .team {
   background: #f5f4fa;
 }
-.our{
+.our {
   text-align: center;
   padding-top: 94px;
   margin-bottom: 50px;
@@ -291,7 +269,6 @@ padding-bottom: 94px;
   list-style: none;
   text-decoration: none;
   font-style: normal;
- 
 }
 .footer-contacts {
   color: rgba(255, 255, 255, 0.6);
@@ -309,11 +286,10 @@ padding-bottom: 94px;
   text-decoration: none;
 }
 
-
 .snap {
   font-family: "Roboto", sans-serif;
   cursor: pointer;
- 
+
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -332,73 +308,63 @@ padding-bottom: 94px;
   border: none;
 }
 .snap-all {
-  
   background: #2196f3;
-  
+
   color: var(--second-text-color);
 }
-.pin:not(:last-child){
-margin-right: 8px;
-
+.pin:not(:last-child) {
+  margin-right: 8px;
 }
-  
+
 .title {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--secondary-title-color);
-    margin-bottom: 4px;
-    padding-left: 24px;
-    padding-right: 24 px;
-   
-   border-left:1px solid #eeeeee ;
-   border-right:1px solid #eeeeee;
-     
-  
+  margin-bottom: 4px;
+  padding-left: 24px;
+  padding-right: 24px;
+
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
 .use {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.88;
   color: var(--primary-text-color);
-   padding-bottom: 20px;
-   padding-left: 24px;
-    padding-right: 24 px;
-   border-bottom:1px solid #eeeeee ;
-   border-left:1px solid #eeeeee ;
-   border-right:1px solid #eeeeee;
-  
-  
+  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
 .progects {
   list-style: none;
   text-decoration: none;
   display: flex;
   flex-wrap: wrap;
-  
-  
 }
-.plan:not(:nth-child(3n)){
+.plan:not(:nth-child(3n)) {
   margin-right: 30px;
   margin-bottom: 20px;
- 
 }
-.container-footer{
+.container-footer {
   width: 1200px;
   height: 211px;
   left: 200px;
   top: 2138px;
 }
 
-
-.footer-road{
+.footer-road {
   margin-top: 20px;
   margin-bottom: 9px;
 }
-.footer-number{
+.footer-number {
   padding-bottom: 60px;
   margin-top: 9px;
 }
-.footero{
+.footero {
   padding-top: 60px;
 }
