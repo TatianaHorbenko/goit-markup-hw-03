@@ -133,11 +133,9 @@ button {
   display: flex;
   text-align: center;
   justify-content: center;
-  
+
   margin-bottom: 30px;
 }
-
-
 
 .button {
   background-color: var(--accent-color);
@@ -153,9 +151,9 @@ button {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-  .button {
-    cursor: pointer;
-  }
+.button {
+  cursor: pointer;
+}
 
 .button:hover,
 .button:focus {
@@ -165,7 +163,6 @@ button {
 .button-centr {
   display: flex;
   justify-content: center;
-  
 }
 h2 {
   font-weight: bold;
@@ -206,23 +203,21 @@ h3 {
 .name-position {
   padding-top: 30px;
   padding-bottom: 30px;
-  
 }
-.main-container{
+.main-container {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
 .description-list:not(:last-child) {
   margin-right: 30px;
-
 }
 
-.idea{
+.idea {
   width: 270px;
-height: 101px;
-left: 515px;
-top: 774px;
+  height: 101px;
+  left: 515px;
+  top: 774px;
 }
 .scroll {
   background: #ffffff;
@@ -237,30 +232,26 @@ top: 774px;
   color: var(--primary-text-color);
 }
 
-
 .panel {
   margin-bottom: 10px;
 }
 .about {
   background: #ffffff;
   padding-bottom: 94px;
-
 }
 .rubric {
   text-align: center;
   margin-bottom: 50px;
 }
 
-
 .team {
   background: #f5f4fa;
   padding-top: 94px;
   padding-bottom: 94px;
-
 }
 .our {
   text-align: center;
-  
+
   margin-bottom: 50px;
 }
 .position {
@@ -301,7 +292,6 @@ top: 774px;
   list-style: none;
   text-decoration: none;
   font-style: normal;
- 
 }
 .list-footer {
   font-weight: normal;
@@ -312,7 +302,7 @@ top: 774px;
   text-decoration: none;
 }
 
-.snap  {
+.snap {
   font-family: "Roboto", sans-serif;
   cursor: pointer;
 
@@ -327,27 +317,25 @@ top: 774px;
   letter-spacing: 0.03em;
   color: #212121;
   display: flex;
-  
+
   justify-content: center;
   margin-bottom: 50px;
 }
 
-.task{
+.task {
   font-family: "Roboto", sans-serif;
   cursor: pointer;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.63;
-  
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+
   padding-left: 22px;
   padding-right: 22px;
   padding-top: 6px;
   padding-bottom: 6px;
   border: none;
-
- 
- }
+}
 .snap-all {
   background: #2196f3;
 
@@ -357,7 +345,7 @@ line-height: 1.63;
   margin-right: 8px;
 }
 
-.draft{
+.draft {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 24px;
@@ -365,22 +353,24 @@ line-height: 1.63;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
 }
+.plan {
+  flex-basis: calc(100% / 3- 30px);
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
 .title {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--secondary-title-color);
   margin-bottom: 4px;
-  
-    
 }
 .use {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.88;
   color: var(--primary-text-color);
- 
- 
 }
 .progects {
   list-style: none;
@@ -396,12 +386,5 @@ line-height: 1.63;
   margin-bottom: 9px;
 }
 .footer-number {
-  
   margin-top: 9px;
-}
-
-.plan{
-  flex-basis: calc(100%/3- 30px);
-  margin-left: 30px;
-  margin-bottom: 30px;
 }
